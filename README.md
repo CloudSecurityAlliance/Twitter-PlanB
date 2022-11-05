@@ -50,7 +50,7 @@ Regardless, federation has one major advantage over centralized services like Tw
 
 https://joinmastodon.org/
 
-# Finding people on Mastodon
+# Finding and verifying people on Mastodon
 
 You can go through your existing Twitter account followers/followed and find people with Mastodon URLs in their profiles and then add them. There is also a service at https://fedifinder.glitch.me/ which can do this for you, it appears to work and only needs read access to:
 
@@ -64,13 +64,13 @@ Please note that the Cloud Security Alliance does not endorse this service, but 
 
 As above, the primary way to currently discover people ius to check their existing social media profiles to see if they have listed their Mastodon ID/link in them in the form @name@server or https://server/name/.
 
-# Making yourself discoverable on Mastodon
+## Out-of-band verification
 
-The usual stuff like hashtags, getting popular people to comment on your content or republish it applies here. 
+If you find an account on Mastodon and are unsure if it is "real" or not you can verify it using other means such as checking their other known social media accounts, their website for a link, emailing them, and so on. This has scale problems (both for validating at scale and people receiving tons of emails requesting they prove that they are who they say they are). I suspect as Mastodon takes off we will see some tools and services to aid in this (e.g. similar to previous attempts like keybase.io).
 
 ## Updating your existing social networks with your Mastodon handle
 
-I storngly suggest you put your Mastodon name @username@service into your other social media profiles to aid discovery and verification. You can also link it, e.g. https://infosec.exchange/@kurtseifried
+I strongly suggest you put your Mastodon name @username@service into your other social media profiles to aid discovery and verification. You can also link it, e.g. https://infosec.exchange/@kurtseifried
 
 ## Linking to your Mastodon profile
 
@@ -90,11 +90,17 @@ Picking a Mastodon service is a lot like picking an email host. On the one hand,
 
 ## Setting up your own Mastodon server
 
-You can use a MaaS (Mastodon as a Service), a hosting provider with pre-setup images that only require configuration, or you can set it up entirely yourself. Currently all MaaS vendors are slammed and not taking new signups, hopefully this changes. 
+You can use a MaaS (Mastodon-as-a-Service), a hosting provider with pre-setup images that only require configuration, or you can set it up entirely yourself.
 
-### Mastodon as a Service (MaaS)
+### Mastodon-as-a-Service (MaaS)
 
 * https://masto.host/
+* https://hostdon.jp/#/
+* https://federation.spacebear.ee/software/mastodon
+* https://ossrox.org/store/mastodon
+* https://weingaertner-it.de/
+
+Please note that many Mastodon services are based in Germany for the simple reason that the primary company behind Mastodon, Mastodon gGmbH, is a German company. 
 
 ### Mastodon containers/etc.
 
