@@ -82,7 +82,7 @@ I'm not sure how this will work, you'll need to deal with each unique Mastodon s
 
 # Dealing with abuse on Mastodon
 
-You will need to deal with the abuse in the context of the server it originates from, which may or may not have abuse policies or abuse handling procedures.  
+You will need to deal with the abuse in the context of the server it originates from, which may or may not have abuse policies or abuse handling procedures. Some information on filtering is here: https://docs.joinmastodon.org/user/moderating/
 
 # Picking a Mastodon host or service
 
