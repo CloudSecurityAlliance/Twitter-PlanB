@@ -70,6 +70,8 @@ The usual stuff like hashtags, getting popular people to comment on your content
 
 ## Updating your existing social networks with your Mastodon handle
 
+I storngly suggest you put your Mastodon name @username@service into your other social media profiles to aid discovery and verification. You can also link it, e.g. https://infosec.exchange/@kurtseifried
+
 ## Linking to your Mastodon profile
 
 Please note that anyone can link to it, e.g. https://seifried.org/ links to Kurt Seifried's 3 main accounts, but someone could put those links on any website. Ideally, they should be correlated, e.g. "I want kurt@seifried.org, seifried.org links to accounts X/Y/Z so those must be the real ones"
