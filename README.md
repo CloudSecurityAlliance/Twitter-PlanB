@@ -42,6 +42,10 @@ Advertising on Mastodon isn't really a thing, you'll need to contact people dire
 
 # Some technical background on Mastodon (what is federation?)
 
+Basically, Mastodon takes the same approach as DNS. You can set up a server, create accounts, and they can follow accounts on the local server or other servers by simply specifying @username@server or https://server/username/. This leads to the benefits of federation like other people with the same name can take that named account on another server, and leads to problems of federation, like other people taking the same name as you on other servers and pretending to be you.
+
+Regardless, federation has one major advantage over centralized services like Twitter: no one entity controls it all, there are different servers with different rules and cultures, and you can move around (although that is painful, much like switching email hosting providers). You can also set up your own Mastodon server with your own DNS if you want a permanent home. 
+
 # Joining Mastodon
 
 https://joinmastodon.org/
@@ -58,8 +62,11 @@ Please note that the Cloud Security Alliance does not endorse this service, but 
 
 ## Check their existing social profiles
 
+As above, the primary way to currently discover people ius to check their existing social media profiles to see if they have listed their Mastodon ID/link in them in the form @name@server or https://server/name/.
+
 # Making yourself discoverable on Mastodon
 
+The usual stuff like hashtags, getting popular people to comment on your content or republish it applies here. 
 
 ## Updating your existing social networks with your Mastodon handle
 
@@ -76,3 +83,24 @@ I'm not sure how this will work, you'll need to deal with each unique Mastodon s
 You will need to deal with the abuse in the context of the server it originates from, which may or may not have abuse policies or abuse handling procedures.  
 
 # Picking a Mastodon host or service
+
+Picking a Mastodon service is a lot like picking an email host. On the one hand, any Mastodon server can communicate with any other Mastodon server, so no matter what you pick you'll be able to follow people on other services, and they'll be able to follow you. On the other hand, picking the same server that is used by the people you communicate with heavily can be more efficient and will aid in the discoverability of your content (Mastodon servers show local content primarily when browsing). There are community-specific and oriented servers, e.g. https://infosec.exchange for the InfoSec community.
+
+## Setting up your own Mastodon server
+
+You can use a MaaS (Mastodon as a Service), a hosting provider with pre-setup images that only require configuration, or you can set it up entirely yourself. Currently all MaaS vendors are slammed and not taking new signups, hopefully this changes. 
+
+### Mastodon as a Service (MaaS)
+
+* https://masto.host/
+
+### Mastodon containers/etc.
+
+* https://marketplace.digitalocean.com/apps/mastodon
+
+## Setting up a Mastodon server at the root of your DNS
+
+Mastodon is a web service, so if you want to server it from yourdomain.tld you can't have a regular web server there. The good news is that you can run your existing web server at yourdomain.tld and add a file to point Mastodon clients to your actual Mastodon server, e.g. at mastodon.yourdomain.tld. For more information on this please see https://github.com/felx/mastodon-documentation/blob/master/Running-Mastodon/Serving_a_different_domain.md (TL;DR: use .well-known/ files).
+
+
+
