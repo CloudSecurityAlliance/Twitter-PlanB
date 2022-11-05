@@ -1,6 +1,6 @@
 # Twitter-PlanB
 
-So as you may or may not know Twitter was bought by Elon Musk, it was assumed things would take a few weeks or months to shake out. In the first week, he fired several top execs including the one responsible for safety, and content moderation on the platform. It's now (2022-11-04) one-week after, and Elon Musk has just fired roughly half of Twitter's global workforce including several entire teams. Elon Musk has also stated that Twitter needs to find 1 Billion per year in infrastructure savings, which is sadly possible if Twitter gets rid of extra capacity needed to service big events like national elections or natural disasters.
+So as you may or may not know Twitter was bought by Elon Musk, it was assumed things would take a few weeks or months to shake out. In the first week, he fired several top execs including the one responsible for safety, and content moderation on the platform. It's now (2022-11-04) one-week after, and Elon Musk has just fired roughly half of Twitter's global workforce including several entire teams. Elon Musk has also stated that Twitter needs to find 1 Billion per year in infrastructure savings, which is sadly possible if Twitter gets rid of extra capacity needed to service big events like national elections or natural disasters. There is also reports that advertisers are bailing out on Twitter, and that advanced ad sales for 2023 basically hit a brick wall, so it is unclear at this point how much this will snowball in the next 3-6 months. Maybe Twitter survives, and maybe it goes bankrupt.
 
 In other words, Twitter went from boring to highly risky. You can start dealing with this risk now, or leave it until you MUST deal with it. At the rate things have gone in the first week I'm not sure how much time we have.
 
@@ -36,7 +36,37 @@ One major challenge faced by journalists on Twitter (and in general on social me
 
 Many people and organizations use Twitter to engage with their public fans, publish information, and so on. The Cloud Security Alliance is a good example of this, our account (@cloudsa) has 17k+ followers, and virtually everything it tweets is just information about new papers, working groups, and other Cloud Security Alliance activities. This Twitter account is vital as part of the engagement funnel that brings people and organizations into the Cloud Security Alliance and gets the word out about our new work.
 
-
 ## Advertisers on Twitter
 
 Advertising on Mastodon isn't really a thing, you'll need to contact people directly to do sponsorships or similar things.
+
+# Some technical background on Mastodon (what is federation?)
+
+# Joining Mastodon
+
+https://joinmastodon.org/
+
+# Finding people on Mastodon
+
+## Check their existing social profiles
+
+# Making yourself discoverable on Mastodon
+
+## Updating yoru existing social networks with your Mastodon handle
+
+## Linking to your Mastodon profile
+
+Please note that anyone can link to it, e.g. https://seifried.org/ links to Kurt Seifried's 3 main accounts, but someone could put those links on any website. Ideally they should be correlated, e.g. "I want kurt@seifried.org, seifried.org links to accounts X/Y/Z so those must be the real ones"
+
+# Dealing with imposters
+
+I'm not sure how this will work, you'll need to deal with each unique Mastodon server which may or may not have abuse policies/etc to deal with this (assuming the imposter is doing anything abusive). I thinkt he best advice right now is to simply register your name on as many servers as you can and then link them, much like how we deal with DNS squatting. It's a terrible non-solution but I don't have anything else to offer at this time.
+
+# Dealing with abuse on Mastodon
+
+You will need to deal with the abuse in the context of the server it originates from, which may or may not have abuse policies or abuse handling procedures.  
+
+# Picking a Mastodon host or service
+
+
+
