@@ -114,6 +114,10 @@ Please note that many Mastodon services are based in Germany for the simple reas
 
 * https://marketplace.digitalocean.com/apps/mastodon
 
+### Limiting signups in Mastodon
+
+If you want to run a Mastodon server but limit signups the easiest way to do this is specify your email domain(s) in EMAIL_DOMAIN_ALLOWLIST (https://docs.joinmastodon.org/admin/config/#email) to limit signups to email domains you control/own.
+
 ## Setting up a Mastodon server at the root of your DNS
 
 Mastodon is a web service, so if you want to server it from yourdomain.tld you can't have a regular web server there. The good news is that you can run your existing web server at yourdomain.tld and add a file to point Mastodon clients to your actual Mastodon server, e.g. at mastodon.yourdomain.tld. For more information on this please see https://github.com/felx/mastodon-documentation/blob/master/Running-Mastodon/Serving_a_different_domain.md (TL;DR: use .well-known/ files).
