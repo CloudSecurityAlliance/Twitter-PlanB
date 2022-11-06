@@ -91,6 +91,12 @@ Picking a Mastodon service is a lot like picking an email host. On the one hand,
 ## Setting up your own Mastodon server
 
 You can use a MaaS (Mastodon-as-a-Service), a hosting provider with pre-setup images that only require configuration, or you can set it up entirely yourself.
+My general comments on this after running an experimental Mastodon service: This is most suited for large organizations with a lot of people that will be using Mastodon and want to provide a controlled space where e.g. abuse can be dealt with by the organization rather than relying on an external server. So for example a large company, University, these sorts of organization might want to run its own Mastodon server. Even if an organization requires users to have a Mastodon account for work (e.g. social media-related jobs), it is easy to set up a work account on an external server. The most significant advantages of running your own Mastodon server would be:
+
+* vanity domain
+* being able to block other servers/users for all of your users
+* being able to deal with abuse reports internally according to your own laws/regulations
+
 
 ### Mastodon-as-a-Service (MaaS)
 
