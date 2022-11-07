@@ -122,5 +122,14 @@ If you want to run a Mastodon server but limit signups the easiest way to do thi
 
 Mastodon is a web service, so if you want to server it from yourdomain.tld you can't have a regular web server there. The good news is that you can run your existing web server at yourdomain.tld and add a file to point Mastodon clients to your actual Mastodon server, e.g. at mastodon.yourdomain.tld. For more information on this please see https://github.com/felx/mastodon-documentation/blob/master/Running-Mastodon/Serving_a_different_domain.md (TL;DR: use .well-known/ files).
 
+## Cross posting content from Mastodon to Twitter
+
+Many organizations and indviduals have built up significant Twitter profiles, clearly abandoning these in place would be a waste of effort. One possible strategy to use if moving to Mastodon is to continue to post content to Twitter, allowing for engagement with the postings (e.g. replies, rewtweets), but drive direct engagement (e.g. DM's, requests) to Mastodon. Several bots exist to cross post content:
+
+* https://github.com/renatolond/mastodon-twitter-poster
+* https://github.com/yogthos/mastodon-bot
+* https://github.com/AmauryCarrade/MastodonToTwitter
+
+There are also a number of Python, go, etc. libraries for Mastodon and Twitter.
 
 
