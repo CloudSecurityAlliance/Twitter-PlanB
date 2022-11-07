@@ -132,4 +132,8 @@ Many organizations and indviduals have built up significant Twitter profiles, cl
 
 There are also a number of Python, go, etc. libraries for Mastodon and Twitter.
 
+# Moving social networks
 
+I debated adding this but there are some good resources on this topic:
+
+* https://doctorow.medium.com/how-to-leave-dying-social-media-platforms-9fc550fe5abf
