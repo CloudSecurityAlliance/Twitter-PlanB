@@ -132,6 +132,42 @@ Many organizations and indviduals have built up significant Twitter profiles, cl
 
 There are also a number of Python, go, etc. libraries for Mastodon and Twitter.
 
+# Setting up a custom acocunt name/domain via web finger
+
+Mastodon supports webfinger which allows you to place a JSON text file on a web server and redirect @accoutname@domain.tld to whatever Mastodon account you want. The documentaiton is at https://docs.joinmastodon.org/spec/webfinger/
+
+To setup webfinger so that @kurt@seifried.org redirects to @kurtseifried@mastodon.social you will need to create a web finger file in the ".well-known" directory at the web root, e.g.: https://seifried.org/.well-known/webfinger
+
+This needs to contain JSON data that specifies the account and where to send it:
+
+```
+{
+  "subject": "acct:kurt@seifried.org",
+  "aliases": [
+    "https://mastodon.social/@kurtseifried",
+    "https://mastodon.social/users/kurtseifried"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.social/@kurtseifried"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.social/users/kurtseifried"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
+```
+
+TODO: update docs for multiple entries example.
+
 # Moving social networks
 
 I debated adding this but there are some good resources on this topic:
