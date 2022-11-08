@@ -52,13 +52,18 @@ https://joinmastodon.org/
 
 # Finding and verifying people on Mastodon
 
-You can go through your existing Twitter account followers/followed and find people with Mastodon URLs in their profiles and then add them. There is also a service at https://fedifinder.glitch.me/ which can do this for you, it appears to work and only needs read access to:
+You can go through your existing Twitter account followers/followed and find people with Mastodon URLs in their profiles and then add them. There are also services that will help with this:
+
+* https://pruvisto.org/debirdify/ (slightly more search options)
+* https://fedifinder.glitch.me/ 
+
+Both appear to work and need read access to your Twitter account:
 
 * See Tweets from your timeline (including protected Tweets) as well as your Lists and collections.
 * See your Twitter profile information and account settings.
 * See accounts you follow, mute, and block.
 
-Please note that the Cloud Security Alliance does not endorse this service, but realistically doing this manually is going to be tiresome and error-prone.
+Please note that the Cloud Security Alliance does not endorse this service, but realistically doing this manually is going to be tiresome and error-prone. Burt if you do use them download the CSV files and import them into your existing Mastodon account (use merge not overwrite). 
 
 ## Check their existing social profiles
 
