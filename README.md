@@ -52,6 +52,12 @@ https://joinmastodon.org/
 
 # Finding and verifying people on Mastodon
 
+The primary way to currently discover people is to check their existing social media profiles to see if they have listed their Mastodon ID/link in them in the form @name@server or https://server/name/.
+
+If you find an account on Mastodon and are unsure if it is "real" or not you can verify it using other means such as checking their other known social media accounts, their website for a link, emailing them, and so on. This has scale problems (both for validating at scale and people receiving tons of emails requesting they prove that they are who they say they are). I suspect as Mastodon takes off we will see some tools and services to aid in this (e.g. similar to previous attempts like keybase.io) like we already have for Twitter account linking.
+
+## Searching your Twitter:
+
 You can go through your existing Twitter account followers/followed and find people with Mastodon URLs in their profiles and then add them. There are also services that will help with this:
 
 * https://pruvisto.org/debirdify/ (slightly more search options)
@@ -65,21 +71,25 @@ Both appear to work and need read access to your Twitter account:
 
 Please note that the Cloud Security Alliance does not endorse this service, but realistically doing this manually is going to be tiresome and error-prone. Burt if you do use them download the CSV files and import them into your existing Mastodon account (use merge not overwrite). 
 
-## Check their existing social profiles
-
-As above, the primary way to currently discover people ius to check their existing social media profiles to see if they have listed their Mastodon ID/link in them in the form @name@server or https://server/name/.
-
-## Out-of-band verification
-
-If you find an account on Mastodon and are unsure if it is "real" or not you can verify it using other means such as checking their other known social media accounts, their website for a link, emailing them, and so on. This has scale problems (both for validating at scale and people receiving tons of emails requesting they prove that they are who they say they are). I suspect as Mastodon takes off we will see some tools and services to aid in this (e.g. similar to previous attempts like keybase.io).
-
-## Updating your existing social networks with your Mastodon handle
+# Updating your existing social networks with your Mastodon handle
 
 I strongly suggest you put your Mastodon name @username@service into your other social media profiles to aid discovery and verification. You can also link it, e.g. https://infosec.exchange/@kurtseifried
 
-## Linking to your Mastodon profile
+## Twitter
+
+Set your Mastodon account in your name or Bio
+
+## Slack
+
+Set your Mastodon account in your Title or Name pronounciation
+
+## Website linking to your Mastodon profile
 
 Please note that anyone can link to it, e.g. https://seifried.org/ links to Kurt Seifried's 3 main accounts (the trick is to use rel="me" in the href link), but someone could put those links on any website. Ideally, they should be correlated, e.g. "I want kurt@seifried.org, seifried.org links to accounts X/Y/Z so those must be the real ones"
+
+## Webfinger 
+
+See the "Setting up a custom account name/domain via Webfinger"
 
 # Dealing with imposters
 
@@ -103,7 +113,6 @@ My general comments on this after running an experimental Mastodon service: This
 * being able to block other servers/users for all of your users
 * being able to deal with abuse reports internally according to your own laws/regulations
 * enforcing identity policies and naming conventions
-
 
 ### Mastodon-as-a-Service (MaaS)
 
@@ -137,7 +146,7 @@ Many organizations and indviduals have built up significant Twitter profiles, cl
 
 There are also a number of Python, go, etc. libraries for Mastodon and Twitter.
 
-# Setting up a custom account name/domain via web finger
+# Setting up a custom account name/domain via Webfinger
 
 Mastodon supports webfinger, which allows you to place a JSON text file on a web server and redirect @accoutname@domain.tld to whatever Mastodon account you want. The documentation is at https://docs.joinmastodon.org/spec/webfinger/
 
