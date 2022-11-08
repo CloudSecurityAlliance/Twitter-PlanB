@@ -75,13 +75,21 @@ Please note that the Cloud Security Alliance does not endorse this service, but 
 
 I strongly suggest you put your Mastodon name @username@service into your other social media profiles to aid discovery and verification. You can also link it, e.g. https://infosec.exchange/@kurtseifried
 
-## Twitter
+## Facebook
 
-Set your Mastodon account in your name or Bio
+Set your Mastodon account in your "Bio"
+
+## LinkedIn
+
+Set your Mastodon account in your "Headline"
 
 ## Slack
 
-Set your Mastodon account in your Title or Name pronounciation
+Set your Mastodon account in your "Title" or "Name pronounciation"
+
+## Twitter
+
+Set your Mastodon account in your "Name" or "Bio"
 
 ## Website linking to your Mastodon profile
 
