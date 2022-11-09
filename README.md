@@ -134,8 +134,8 @@ Please note that many Mastodon services are based in Germany for the simple reas
 
 ### Mastodon containers/etc.
 
-* https://github.com/hashbang/mastodon-helm
-* https://marketplace.digitalocean.com/apps/mastodon (this is a really old version, 3.1, so do not use it unless you're planning to upgrade it)
+* https://github.com/hashbang/mastodon-helm (not production ready but it's a start)
+* https://marketplace.digitalocean.com/apps/mastodon (3.5.3 up to date as of 2022-11-08)
 
 ### Mastodon install from source
 
