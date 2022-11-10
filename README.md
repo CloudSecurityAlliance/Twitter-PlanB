@@ -159,6 +159,10 @@ Many organizations and indviduals have built up significant Twitter profiles, cl
 
 There are also a number of Python, go, etc. libraries for Mastodon and Twitter.
 
+There are also browser extensions for this:
+
+* https://chrome.google.com/webstore/detail/birdsite/lfmfhaopllgidldpmifdcjdckdggdjaj
+
 # Setting up a custom account name/domain via Webfinger
 
 Mastodon supports webfinger, which allows you to place a JSON text file on a web server and redirect @accoutname@domain.tld to whatever Mastodon account you want. The documentation is at https://docs.joinmastodon.org/spec/webfinger/
